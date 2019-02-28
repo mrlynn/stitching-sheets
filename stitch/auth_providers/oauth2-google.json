@@ -1,0 +1,50 @@
+{
+    "id": "5c76daeae82783560b64c070",
+    "name": "oauth2-google",
+    "type": "oauth2-google",
+    "config": {
+        "clientId": "963034550787-rs2uk3t4q3c2va5cuegvme4c8qtf2o1k.apps.googleusercontent.com"
+    },
+    "secret_config": {
+        "clientSecret": "__oauth2-google_clientSecret"
+    },
+    "disabled": false,
+    "metadata_fields": [
+        {
+            "required": false,
+            "name": "name"
+        },
+        {
+            "required": false,
+            "name": "first_name"
+        },
+        {
+            "required": false,
+            "name": "last_name"
+        },
+        {
+            "required": false,
+            "name": "picture"
+        },
+        {
+            "required": false,
+            "name": "gender"
+        },
+        {
+            "required": false,
+            "name": "birthday"
+        },
+        {
+            "required": false,
+            "name": "min_age"
+        },
+        {
+            "required": false,
+            "name": "max_age"
+        },
+        {
+            "required": false,
+            "name": "email"
+        }
+    ]
+}

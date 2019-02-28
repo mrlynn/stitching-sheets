@@ -1,0 +1,11 @@
+{
+    "app_id": "stitch-sheets-zkvuv",
+    "config_version": 20180301,
+    "name": "stitch-sheets",
+    "location": "US-VA",
+    "deployment_model": "GLOBAL",
+    "security": {},
+    "hosting": {
+        "enabled": false
+    }
+}
