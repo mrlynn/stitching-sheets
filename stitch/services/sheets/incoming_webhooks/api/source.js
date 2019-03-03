@@ -23,9 +23,10 @@ exports = async function(payload) {
        const strres=findresult.map( x=> `${x.name} at ${x.location} from ${new Date(x.date_start).toLocaleString()} to ${new Date(x.date_end).toLocaleString()} (${x.status})`).join("\n");
        return { text: `Events as of ${new Date().toLocaleString()}\n${strres}` };
      case "remove":
-       const delresult = await eventscoll.deleteOne( { user_id: { $eq: payload.query.user_id }, url: { $eq: args[1]}});
+       const delresult = await eventscoll.deleteOne({name:payload.query.name, location: payload.query.location, date_start: payload.query.date_start});
+       console.log(JSON.stringify(delresult));
        return { text: `Deleted ${delresult.deletedCount} stashed items` };
      default:
-       return { text: "Unrecognized command - try new [url],list, or remove [url]" };
+       return { text: "Unrecognized command - try events [list], or remove [event_id]" };
    }
 }
