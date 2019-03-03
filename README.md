@@ -8,7 +8,7 @@ MongoDB Stitch is an amazing Back-end as a Service that provides a framework for
 
 There are two key elements that make this solution work. First, we have a Google Sheets script which runs from a menu item we add to the sheet. This script collects a row of data at a time and POSTs it to a MongoDB Stitch HTTP Service incoming webhook. The second is the function that runs when the webhook is called — this is where the data is received and inserted into a MongoDB Database Collection.
 
-[![Stitching Sheets: Google Sheet](https://github.com/mrlynn/stitching-sheets/blob/master/images/sheets-stitch-slack.png?raw=true)](https://github.com/mrlynn/stitching-sheets/blob/master/images/sheets-stitch-slack.png?raw=true
+[![Stitching Sheets: Google Sheet](https://github.com/mrlynn/stitching-sheets/blob/master/images/sheets-stitch-slack.png?raw=true)](https://github.com/mrlynn/stitching-sheets/blob/master/images/sheets-stitch-slack.png?raw=true)
 
 Here's an [example spreadsheet](https://docs.google.com/spreadsheets/d/1NOeo12Rcc09j91kQgtRiGd7vMgbB3rrIcNJRDAoBKC8/edit?usp=drive_web&ouid=112239861731016170701) that contains data for my team's event tracking spreadsheet.
 
@@ -23,8 +23,4 @@ Here's an [example spreadsheet](https://docs.google.com/spreadsheets/d/1NOeo12Rc
 | HackCU                     | https://hackcu.org/          | Hackathon  | 22-Feb-2019 | 23-Feb-2019 | Boulder, CO          | Declined    | Lisa  |
 | hoohacks.io                | http://hoohacks.io/          | Hackathon  | 02-Mar-2019 | 03-Mar-2019 | Charlottesville, VA  | Researching | Susan |
 | Confoo                     | http://confoo.ca             | FM Event   | 13-Mar-2019 | 15-Mar-2019 | Montreal, Canada     | Researching | Carey |
-| API the Docs               | https://apithedocs.org/      | Conference | 15-Mar-2019 | 15-Mar-2019 | Chicago, IL          | Researching | Bill  |
-| Game Developers Conference | http://gdconf.com            | Conference | 18-Mar-2019 | 22-Mar-2019 | San Francisco, CA    | Researching | Bill  |
-| Boise Code Camp            | http://boisecodecamp.com/    | Conference | 23-Mar-2019 | 23-Mar-2019 | Boise, Idaho         | Researching | Eli   |
-
 
